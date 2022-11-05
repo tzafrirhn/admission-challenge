@@ -1,2 +1,3 @@
 #!/bin/bash
-#add fix to exercise2 here
+#delete wrong host routing
+sudo sed -i '/www.ascii-art.de/d' /etc/hosts
